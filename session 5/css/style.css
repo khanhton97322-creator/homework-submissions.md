@@ -1,3 +1,4 @@
+```css
 /* Cai dat chung cho trang web */
 body {
     font-family: Arial, sans-serif;
@@ -44,6 +45,13 @@ nav a.active {
 }
 
 /* Khu vuc noi dung chinh */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Khung noi dung */
 .container {
     width: 80%;
     margin: auto;
