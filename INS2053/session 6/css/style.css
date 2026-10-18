@@ -1,0 +1,123 @@
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f7fb;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+/* Navigation menu */
+nav {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #222222;
+    text-decoration: none;
+    padding: 8px 12px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: white;
+    color: blue;
+}
+
+/* Highlight the current page */
+nav li.active a {
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+}
+
+/* Main content */
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+main h2 {
+    color: blue;
+}
+
+main h3 {
+    color: #444444;
+}
+
+main p {
+    font-size: 16px;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Small screens */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    nav li {
+        margin: 3px;
+    }
+
+    nav a {
+        padding: 8px;
+    }
+}
